@@ -5,6 +5,7 @@ import { borderRadius } from "@mui/system"
 export const NothingSelectedView = () => {
   return (
     <Grid 
+    className='animate___animated animate__fadeIn animate__faster'
       container
       spacing={ 0 }
       direction="column"
